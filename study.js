@@ -1,3 +1,3 @@
-console.log('고양이');
-console.log('하나 더'); 
-console.clear()
+const promptMessage = "프롬프트에 표시할 문자열"
+const result = prompt(promptMessage)
+console.log(result)
