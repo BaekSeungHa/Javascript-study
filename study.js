@@ -1,3 +1,4 @@
-const promptMessage = "프롬프트에 표시할 문자열"
-const result = prompt(promptMessage)
-console.log(result)
+const array = [1,2,3,4,5,6,7,8,9,10];
+console.log(array);
+const array2 = array.filter(number => number % 2 == 0);
+console.log(array2);
