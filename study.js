@@ -1,4 +1,6 @@
-const array = [1,2,3,4,5,6,7,8,9,10];
-console.log(array);
-const array2 = array.filter(number => number % 2 == 0);
-console.log(array2);
+let number = 21;
+let player = prompt("좋아하는 축구 선수는?")
+
+console.log(
+    `제가 좋아하는 축구선수는 ${player}, 그의 등번호는 ${21}`
+)
