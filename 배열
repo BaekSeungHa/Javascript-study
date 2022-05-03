@@ -1,0 +1,30 @@
+//짝수 골라내기
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(arr); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+const arr2 = arr.filter(number => number % 2 === 0);
+console.log(arr2); // [2, 4, 6, 8, 10]
+
+//ture반환
+const arr = [1, 2, 3, 4, 5];
+console.log(arr); // [1, 2, 3, 4, 5]
+
+const arr2 = arr.filter(number => true);
+console.log(arr2); // [1, 2, 3, 4, 5]
+
+//faluse반환
+const arr = [1, 2, 3, 4, 5];
+console.log(arr); // [1, 2, 3, 4, 5]
+
+const arr2 = arr.filter(number => false);
+console.log(arr2); // []
+모두 false를 반환하므로 전부 증발했습니다. 결과적으로 arr2는 빈 배열( [] )이 됩니다.
+
+//3보다 크거나 같은 수만 걸러냅니다.
+
+const arr = [1, 2, 3, 4, 5];
+console.log(arr); // [1, 2, 3, 4, 5]
+
+const arr2 = arr.filter(number => number >= 3);
+console.log(arr2); // [3, 4, 5]
+
