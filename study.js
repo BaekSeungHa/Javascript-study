@@ -1,10 +1,11 @@
-let number = 21;
-let player = prompt("좋아하는 축구 선수는?")
+const button = document.querySelector('button')
 
-console.log(
-    `제가 좋아하는 축구선수는 ${player}, 그의 등번호는 ${21}`
-)
+let interId;
+interId = setInterval(function(){
+    console.log("Hello")
+}, 1000)
+console.log(interId)
 
-console.log(
-    `제가 좋아하는 축구선수는 ${prompt("좋아하는 축구 선수는?")}, 그의 등번호는 ${21}`
-)
+button.addEventListener("click", function(){
+    clearInterval(interId)
+})
