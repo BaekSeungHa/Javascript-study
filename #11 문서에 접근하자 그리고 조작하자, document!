@@ -1,0 +1,5 @@
+window의 document 속성은 창이 포함한 문서를 참조한다.
+document는 모든 종류의 문서에 대한 공통의 속성과 메소드를 제공한다.
+document의 querySelector 메소드는 선택자를 인자로 전달받아, 전달받은 선택자와 일치하는 문서 내 첫 번째 요소(Element)를 반환한다.
+documentdml getElementById메소드는 id를 인자로 전달받아, 전달받은 선택자와 일치하는 문서 내 요소(Element)를 반환한다.
+textContent 속성은 노드가 포함하고 있는 텍스트 콘텐츠를 표현한다.
