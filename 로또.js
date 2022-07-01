@@ -28,3 +28,5 @@ restButton.addEventListener("click", function(){
     lottoNumbers.splice(0, 6)
     numbersDiv.innerHTML = ""
 })
+
+restButton.addEventListener
