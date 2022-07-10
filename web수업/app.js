@@ -24,8 +24,8 @@ function signUp() {
 
 function select() {
     let users;
-    axios.get{`${server}/users`} .then((item)) => {
+    axios.get(`${server}/users`).then(item => {
         users = item.data;
         console.log(users);
-    };
+    });
 }

@@ -1,0 +1,83 @@
+#title {
+    text-align: center;
+}
+#text1 {
+    position: absolute;
+    width: 17px;
+    height: 19px;
+    left: 558px;
+    top: 385px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#id {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 347px;
+    height: 57px;
+    left: 546px;
+    top: 404px;
+
+    border: 3px solid #FFB6F3;
+    border-radius: 18px;
+}
+
+#text2 {
+    position: absolute;
+    width: 93px;
+    height: 19px;
+    left: 558px;
+    top: 474px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#password {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 347px;
+    height: 57px;
+    left: 546px;
+    top: 493px;
+
+    border: 3px solid #FFB6F3;
+    border-radius: 18px;
+}
+
+#loginBtn {
+    position: absolute;
+    width: 105px;
+    height: 38px;
+    left: 667px;
+    top: 562px;
+    
+    background: #FFB6F3;
+    border-radius: 18px;
+
+}
+
+#signUpBtn {
+    position: absolute;
+    width: 105px;
+    height: 38px;
+    left: 788px;
+    top: 562px;
+
+    background: #FFB6F3;
+    border-radius: 18px;
+}
