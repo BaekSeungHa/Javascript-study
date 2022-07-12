@@ -55,7 +55,6 @@ async function printMeal(){
     console.log(data);
     const schoolMeal = data.mealServiceDietInfo[1].row;
     console.log(schoolMeal);
-   
     const breakfast = schoolMeal[0].DDISH_NM;
     document.getElementById("menuPan1").innerHTML = `아침<br>${breakfast}`;
     const lunch = schoolMeal[1].DDISH_NM;
@@ -64,5 +63,9 @@ async function printMeal(){
     document.getElementById("menuPan3").innerHTML = `저녁<br>${dinner}`;
     console.log(breakfast,lunch);
   
+}
+
+function zero() {
+    alert("오늘 급식은 없습니다");
 }
 printMeal();
