@@ -1,4 +1,4 @@
-const server = "http://10.80.162.124:3000";
+const server = "http://10.80.162.74:3000";
 
 const id = document.querySelector("#id");
 const password = document.querySelector("#password");
@@ -6,7 +6,9 @@ const signUpBtn = document.querySelector("#signUpBtn");
 const ul = document.querySelector("#ul");
 
 signUpBtn.addEventListener("click", () => {
+    console.log('click')
     signUp();
+    console.log("hi");
 })
 
 function signUp() {
@@ -19,7 +21,7 @@ function signUp() {
     .catch((e) => {
         console.log(e);
     });
-    //select();
+    select();
 }
 
 function select() {
@@ -29,3 +31,9 @@ function select() {
         console.log(users);
     });
 }
+
+fetch('http://10.80.162.74:3000')
+  .then(res => res.json())
+  .then(res => {
+    
+  });

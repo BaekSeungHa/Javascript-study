@@ -65,7 +65,7 @@
     height: 38px;
     left: 770px;
     top: 430px;
-    
+    border: none;
     background: #FFB6F3;
     border-radius: 18px;
 
@@ -77,7 +77,11 @@
     height: 38px;
     left: 880px;
     top: 430px;
-
+    border: none;
     background: #FFB6F3;
     border-radius: 18px;
+}
+
+body {
+    background-color: beige;
 }
